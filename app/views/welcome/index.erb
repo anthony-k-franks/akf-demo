@@ -1,0 +1,24 @@
+<h1><%=@comic_hash['title']%></h1>
+<h3>XKCD: <%=@comic_hash['comic_no']%></h3>
+<img src="<%=@comic_hash['img']%>"/>
+<br/>
+<br/>
+<p>XKCD Link: <%=@comic_hash['img']%></p>
+<button style="background-color: #008CBA;border: none;text-align: center;font-size: 16px;border-radius: 8px;" onclick="newComic()">Give Me Another One!</button>
+<button style="background-color: #008CBA;border: none;text-align: center;font-size: 16px;border-radius: 8px;" onclick="gotoTest()">Goto Test Page!</button>
+<p>Current Time: <%=Time.now%></p>
+
+<pre>
+<%= Cowsay.say(FortuneGem.give_fortune, "Cow") %>
+</pre>
+
+<script>
+function newComic() {
+    location.reload();
+}
+</script>
+<script>
+function gotoTest() {
+    location.assign("/test-section/test");
+}
+</script>

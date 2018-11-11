@@ -1,0 +1,15 @@
+<h1>Random Cyanide and Happiness</h1>
+<h2><%=@comic_hash['title']%></h2>
+<img src="<%=@comic_hash['img']%>"/>
+<br/>
+<br/>
+<p>Current Time: <%=Time.now%></p>
+<p>Link: <%=@comic_hash['link']%></p>
+<button style="background-color: #008CBA;border: none;text-align: center;font-size: 16px;border-radius: 8px;" onclick="newComic()">Give Me Another One!</button>
+
+
+<script>
+function newComic() {
+    location.reload();
+}
+</script>

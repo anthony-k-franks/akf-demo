@@ -1,0 +1,8 @@
+{
+  "name": "Getting started with Ruby on Rails and Heroku",
+  "description": "Learning Ruby on Rails. This demo will contain things I've learned and stuff I want to try out.",
+  "image": "heroku/ruby",
+  "repository": "https://github.com/terminap4r4d0x/akf-demo.git",
+  "keywords": ["ruby", "rails" ],
+  "addons": ["heroku-postgresql"]
+}
