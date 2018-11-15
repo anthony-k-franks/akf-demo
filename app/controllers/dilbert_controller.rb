@@ -70,7 +70,7 @@ class DilbertController < ApplicationController
   end
 
   def dilbert
-    get_comic
+    return get_comic
   end
 
 end

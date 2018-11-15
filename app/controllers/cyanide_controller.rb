@@ -30,6 +30,6 @@ class CyanideController < ApplicationController
 
   end
   def index
-    get_comic
+    return get_comic
   end
 end

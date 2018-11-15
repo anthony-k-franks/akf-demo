@@ -22,7 +22,7 @@ class WelcomeController < ApplicationController
   end
   # GET /welcome
   def index
-    get_comic
+    return get_comic
   end
 
 end
