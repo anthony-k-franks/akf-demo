@@ -1,6 +1,9 @@
 <h1>Random <%=@comic_hash['comic']%></h1>
 <h2><%=@comic_hash['title']%></h2>
 <img src="<%=@comic_hash['img']%>"/>
+<% if @comic_hash['comic'] == 'XKCD' %>
+<p>Alt: <%=@comic_hash['alt']%></p>
+<% end %>
 <br/>
 <br/>
 <p>Current Time: <%=Time.now%></p>
