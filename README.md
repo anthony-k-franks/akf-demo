@@ -5,7 +5,7 @@ Sandbox for learning ruby, rails and Heroku.
 http://akf-demo.herokuapp.com/
 Retrieves random XKCD, sometimes innappropiate humor
 
-http://akf-demo.herokuapp.com/dilbert/dilber
+http://akf-demo.herokuapp.com/dilbert/dilbert
 Retrieves random Dilbert and always work place appropiate humor.
 
 http://akf-demo.herokuapp.com/buttersafe/index
